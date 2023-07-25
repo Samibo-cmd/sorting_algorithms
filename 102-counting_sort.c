@@ -31,10 +31,10 @@ int get_max(int *array, int size)
 void counting_sort(int *array, size_t size)
 {
 	int *count, *sorted, max, i;
-	
+
 	if (array == NULL || size < 2)
 		return;
-	
+
 	sorted = malloc(sizeof(int) * size);
 	if (sorted == NULL)
 		return;
