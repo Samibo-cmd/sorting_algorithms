@@ -1,6 +1,9 @@
 #ifndef _MAN_H
 #define _MAN_H
 
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
  * struct listint_s - Doubly linked list node
  *
